@@ -63,3 +63,8 @@ header nav ul li a {
 .hero img {
     padding: 20px;
 }
+header nav ul li a:hover {
+    background:#022536;
+    color: #2a607c;
+    border-radius: 15px;
+}
