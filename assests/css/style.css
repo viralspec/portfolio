@@ -1,0 +1,65 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+header {
+    padding: 20px;
+    background-color: #2a607c;
+    color: #022536;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+header h1 {
+    font-size: 48px;
+    background-color: teal;
+}
+header nav ul {
+    list-style: none;
+    display:flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+
+header nav ul li {
+    margin-left: 50px;
+    text-decoration: none;
+    padding: 15px;
+    margin: 20px;
+    font-size: 38px;
+}
+header nav ul li a {
+    text-decoration: none;
+    
+}
+.hero { 
+     background-image: url(../images/stars.jpg);
+     background-size: cover; 
+     background-position: center;
+     height: 300px;
+     display: flex;
+     justify-content: space-between;
+     align-items: right;
+  }
+
+.hero .hero-sub {
+    font-size: 28px;
+    display: flex;
+    justify-content: end;
+    text-align: right;
+    color:yellow;
+    align-items: end;
+}
+#sub-start {
+    justify-content: end;
+}
+.hero img {
+    padding: 20px;
+}
